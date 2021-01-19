@@ -4,19 +4,19 @@
 
 extern "C"
 {
-	JNIEXPORT jobjectArray  JNICALL Java_net_bymodz_Native_StringArray(
+    JNIEXPORT jobjectArray  JNICALL Java_net_bymodz_Native_StringArray(
         JNIEnv *env,jobject activityObject) {
      
      jobjectArray ret;
 
     const char *features[] = {
 		
-		OBFUSCATE("BYModZ • FFX"),
+	OBFUSCATE("BYModZ • FFX"),
         
-		OBFUSCATE("ANTENA HEAD"),
-		OBFUSCATE("ANTENA HAND"),
-		OBFUSCATE("× ANTENA OFF ×"),
-		OBFUSCATE("© 2021 BY ModZ"),
+	OBFUSCATE("ANTENA HEAD"),
+	OBFUSCATE("ANTENA HAND"),
+	OBFUSCATE("× ANTENA OFF ×"),
+	OBFUSCATE("© 2021 BY ModZ"),
         OBFUSCATE("fonts/ffx.otf"),
         
         OBFUSCATE("plugins/68~65~61~64.unity3D"),
