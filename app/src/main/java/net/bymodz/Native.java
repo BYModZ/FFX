@@ -19,6 +19,4 @@ public class Native {
         return str[numOfString];
     }
 
-
-
 }
